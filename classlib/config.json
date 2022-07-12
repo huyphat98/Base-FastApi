@@ -1,0 +1,22 @@
+{
+    "db": {
+      "host": "mongodb://localhost:27017/",
+      "dbname": "DongNam",
+      "colSchedule": "Schedule",
+      "colStation": "Station",
+      "colAudio": "Audio",
+      "colLog":"ConfigLog",
+      "colRestreamlink":"RestreamLink"
+    },
+    "path":{
+        "media": "/opt/station/media/",
+        "songbackground": "/opt/station/media/background/background.mp3",
+        "schedule": "/opt/station/station-core",
+        "log":"/opt/station/api-gateway/log/systemlog.json",
+        "rtsp":"/opt/rtsp-server/rtsp-simple-server",
+        "mainSchedule":"/opt/station/station-core/scheduleMain.py",
+        "config_rtsp":"/opt/rtsp-server/rtsp-simple-server.yml",
+        "config_icecast":"/etc/icecast2/icecast.xml"
+    },
+    "port": 45000
+}
